@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px;
+    background-color: cornsilk;
 }
 
 .results {
@@ -21,7 +22,7 @@ a {
 }
 
 ul {
-    background-color: blanchedalmond;
+    background-color: darkgray;
     text-align: center;
     width: 100%;
 }
