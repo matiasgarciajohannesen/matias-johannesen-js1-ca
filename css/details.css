@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: cornsilk;
+}
+
+.details {
+    width: 50%;
+    height: 150px;
+}
+
+
+h2 {
+    margin: 10px 0 10px 0;
+    font-size: xx-large;
+}
+
+p {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+img {
+    margin-top: 20px;
+}
+
+button {
+    background-color: red;
+    color: seashell;
+    height: 30px;
+    width: 80px;
+}
+
+
