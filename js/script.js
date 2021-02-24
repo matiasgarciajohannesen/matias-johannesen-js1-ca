@@ -8,7 +8,7 @@ characters = (characters) => {
     results.innerHTML = "";
     for (character of characters.results) {
         let ricks = `
-        <a href="details.html">
+        <a href="details.html?id=${character.id}">
         <ul>
         <h2>${character.id}</h2>
         <h3>${character.name}</h3>
