@@ -9,10 +9,13 @@ body {
     justify-content: center;
     margin: 20px;
     background-color: cornsilk;
+    background-image: url(/img/rick\ and\ morty.png);
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 .results {
-    width: 50%;
+    width: 20%;
     height: 150px;
 }
 
@@ -23,6 +26,7 @@ a {
 
 ul {
     background-color: darkgray;
+    opacity: 0.8;
     text-align: center;
     width: 100%;
 }
