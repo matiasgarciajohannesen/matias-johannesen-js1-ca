@@ -9,11 +9,15 @@ body {
     justify-content: center;
     margin: 20px;
     background-color: cornsilk;
+    background-image: url(/img/rick\ and\ morty.png);
+    background-attachment: fixed;  
+    background-size: cover;
 }
 
 .details {
-    width: 50%;
-    height: 150px;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(128, 127, 126);
 }
 
 
@@ -32,10 +36,13 @@ img {
 }
 
 button {
-    background-color: red;
-    color: seashell;
     height: 30px;
     width: 80px;
 }
+
+button:hover {
+    cursor: pointer;  
+}
+
 
 
